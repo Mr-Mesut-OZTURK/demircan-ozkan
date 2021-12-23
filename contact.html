@@ -20,14 +20,15 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/nav.css">
   <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon" />
-  <title>Av. Vahap</title>
+  <title>DEMİRCAN & OZKAN HUKUK BUROSU</title>
 </head>
 
 <body>
   <!------------------ Navbar -------------------->
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top myBgColor">
     <div class="container-fluid px-5">
-      <h2 class="display-4 text-light">AV. VAHAP</h2>
+
+      <h2 class="text-light text-center" style="font-family: Courier New;">DEMİRCAN & ÖZKAN HUKUK BÜROSU</h2>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -184,19 +185,24 @@
     </section> -->
 
     <!------------ contact 2 ---------------->
-    <div class="row gap-5 p-5 section__1" style="background-image: url('media/mikhail-pavstyuk-EKy2OTRPXdw-unsplash.jpg')">
+    <div class="row gap-5 p-5 section__1"
+      style="background-image: url('media/mikhail-pavstyuk-EKy2OTRPXdw-unsplash.jpg')">
 
       <!-- form -->
       <div class="col-md d-flex justify-content-center align-items-center bg-dark opacity-75">
         <div class="container py-4">
           <h3 class="text-center text-warning">Bize Yazın</h3>
           <form action="" class="form bg-dark">
-            <div class="form-group">
-              <label for="firstname">Name</label>
+            <div class="form-group mb-4">
+              <label for="firstname" class="text-light">İsim</label>
               <input class="form-control" type="text" name="firstname" id="firstname">
             </div>
-            <input class="btn btn-warning mt-4 btn-block" type="submit" value="GÖNDER">
-          
+            <div class="form-group mb-2">
+              <label for="comment" class="text-light">Mesajınız</label>
+              <textarea class="form-control" type="text" name="firstname" id="comment"></textarea>
+            </div>
+            <input class="btn btn-warning mt-4 btn-block w-100" type="submit" value="GÖNDER">
+
           </form>
         </div>
       </div>
@@ -206,49 +212,50 @@
         <div class="container">
           <!-- <div class="card bg-dark"> -->
 
-            <div class="card-body">
-              <table class="table table-borderless table-hover table-striped">
-                
-                <thead>
-                  <tr>
-                    <th colspan="2" class="bg-dark">
-                      <h3 class="card-title text-center text-warning text-underline">İletişim Bilgileri</h3>
-                    </th>
-                  </tr>
-                </thead>
+          <div class="card-body">
+            <table class="table table-borderless table-hover table-striped">
 
-                <tbody>
-                  <tr>
-                    <td class="text-light bi-house-door-fill"></td>
-                    <td class="text-light">
-                      <address>
-                        Kasımpaşa Mah. No:36 D:4
-                        Menemen/İZMİR
-                      </address>
-                    </td>
-                  </tr>
+              <thead>
+                <tr>
+                  <th colspan="2" class="bg-dark">
+                    <h3 class="card-title text-center text-warning text-underline">İletişim Bilgileri</h3>
+                  </th>
+                </tr>
+              </thead>
 
-                  <tr>
-                    <td class="text-light bi-telephone-fill"></td>
-                    <td class="text-light">
-                      <address>
-                        +90 (212) 777 7777
-                      </address>
-                    </td>
-                  </tr>
+              <tbody>
+                <tr>
+                  <td class="text-light bi-house-door-fill"></td>
+                  <td class="text-light">
+                    <address>
+                      Mermerli Mah. Mithatpaşa Cad.<br />
+                      Tarhan İş Mrk. No: 49/5<br />
+                      Menemen/İZMİR
+                    </address>
+                  </td>
+                </tr>
 
-                  <tr>
-                    <td class="text-light bi-megaphone-fill"></td>
-                    <td class="text-light">
-                      <address>
-                        vahap@gmail.com
-                      </address>
-                    </td>
-                  </tr>
-                </tbody>
+                <tr>
+                  <td class="text-light bi-telephone-fill"></td>
+                  <td class="text-light">
+                    <address>
+                      <a href="https://api.whatsapp.com/send?phone=905052298816" class="text-light text-decoration-none">+90 (505) 229 88 16</a>
+                    </address>
+                  </td>
+                </tr>
 
-              </table>
-            </div>
+                <tr>
+                  <td class="text-light bi-megaphone-fill"></td>
+                  <td class="text-light">
+                    <address>
+                      av.mahirdemircan@gmail.com
+                    </address>
+                  </td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
 
           <!-- </div> -->
         </div>
@@ -271,11 +278,12 @@
 
         <div class="list-group text-center" id="footer_contact">
           <address class="text-center text-warning bi-house-door-fill">
-            Kasımpaşa Mah. No:36 D:4<br />
+            Mermerli Mah. Mithatpaşa Cad.<br />
+            Tarhan İş Mrk. No: 49/5<br />
             Menemen/İZMİR
           </address>
           <phone class="link-warning bi-telephone-fill">
-            +90 (212) 777 7777</phone>
+            +90 (505) 229 88 16</phone>
         </div>
       </div>
 
@@ -291,10 +299,10 @@
       <div class="col-lg-3 col-md-6 col-sm-12 my-3">
         <h3 class="text-center text-decoration-underline">Sayfalar</h3>
         <div class="list-group text-center">
-          <a href="#" class="link-warning text-decoration-none">Anasayfa</a>
-          <a href="#" class="link-warning text-decoration-none">Hizmetlerimiz</a>
-          <a href="#" class="link-warning text-decoration-none">Hakkımızda</a>
-          <a href="#" class="link-warning text-decoration-none">İletişim</a>
+          <a href="index.html" class="link-warning text-decoration-none">Anasayfa</a>
+          <a href="services.html" class="link-warning text-decoration-none">Hizmetlerimiz</a>
+          <a href="about.html" class="link-warning text-decoration-none">Hakkımızda</a>
+          <a href="contact.html" class="link-warning text-decoration-none">İletişim</a>
         </div>
       </div>
 
@@ -303,7 +311,8 @@
         <div class="list-group text-center">
           <a href="#" class="link-warning text-decoration-none bi-twitter">
             Twitter</a>
-          <a href="#" class="link-warning text-decoration-none bi-whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=905052298816"
+            class="link-warning text-decoration-none bi-whatsapp">
             Whatsapp</a>
           <a href="#" class="link-warning text-decoration-none bi-instagram">
             İnstagram</a>
@@ -312,11 +321,11 @@
     </div>
 
     <div class="row text-center p-4">
-      <p class="col-12">
-        www.vahaphukuk.av.tr 2020 - 2025
+      <a href="#" class="col-12 text-light text-decoration-none">
+        https://demircan-ozkan.av.tr 2020 - 2025
         <span>&copy;</span>
         Tüm hakları saklıdır
-      </p>
+      </a>
     </div>
   </footer>
 
